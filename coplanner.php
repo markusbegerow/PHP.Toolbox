@@ -1,5 +1,14 @@
 <?php
 
+/*
+#########################################################
+Author:			Markus Begerow
+Created on:		01.09.2022
+Description:	First steps with PHP & CoPlanner
+Version:		1.0.0
+#########################################################
+*/
+
 function COP_Login($server, $port, $user, $password, $scenarioid) {
 
 	$curl = curl_init();
